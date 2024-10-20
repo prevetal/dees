@@ -1,0 +1,331 @@
+header .info
+{
+    flex-wrap: nowrap;
+}
+
+
+
+header .desc
+{
+    width: 349px;
+    min-width: 349px;
+    max-width: 100%;
+    padding: 13px;
+}
+
+
+
+header .bg_contact
+{
+    padding: 6px 40px;
+}
+
+
+
+header .contact
+{
+    justify-content: space-between;
+}
+
+
+header .contact .item
+{
+    margin-left: 40px;
+}
+
+
+
+header .bg_links
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 423px;
+    min-width: 423px;
+    max-width: 100%;
+    padding: 13px;
+
+    background: #f3f3f3;
+}
+
+
+
+header .callback_link2
+{
+    font-size: 14px;
+    font-weight: 500;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 217px;
+    max-width: 100%;
+    height: 46px;
+    padding: 2px 64px 0 25px;
+
+    transition: background .2s linear;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: currentColor;
+    background: #fcaf17;
+
+    clip-path: polygon(0 0, 100% 0, calc(100% - 52px) 100%, 0% 100%);
+}
+
+
+header .callback_link2:hover
+{
+    background: #ed9d00;
+}
+
+
+
+header .download_link
+{
+    font-size: 14px;
+    font-weight: 500;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    width: 217px;
+    max-width: 100%;
+    height: 46px;
+    margin-left: -37px;
+    padding: 2px 16px 0 52px;
+
+    transition: background .2s linear;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #fff;
+    background: #016892;
+
+    gap: 16px;
+    clip-path: polygon(52px 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+
+header .download_link svg
+{
+    position: relative;
+    top: -2px;
+
+    display: block;
+
+    width: 16px;
+    height: 17px;
+}
+
+
+header .download_link:hover
+{
+    background: #0883b3;
+}
+
+
+
+
+@media (max-width: 1899px)
+{
+    header .desc
+    {
+        width: 260px;
+        min-width: 260px;
+        max-width: 100%;
+        padding: 6px 13px;
+    }
+
+
+    header .bg_contact
+    {
+        padding: 6px 20px;
+    }
+
+
+    header .bg_links
+    {
+        width: 389px;
+        min-width: 389px;
+    }
+
+
+    header .callback_link2
+    {
+        width: 200px;
+        padding: 2px 52px 0 20px;
+    }
+
+
+    header .download_link
+    {
+        width: 200px;
+        margin-left: -37px;
+        padding: 2px 12px 0 45px;
+
+        gap: 10px;
+    }
+}
+
+
+
+
+@media (max-width: 1699px)
+{
+    header .desc
+    {
+        width: 292px;
+        min-width: 0;
+    }
+
+
+    header .bg_contact
+    {
+        flex: none;
+
+        width: calc(100% - 681px);
+        padding: 6px 40px;
+    }
+
+
+    header .contact .item
+    {
+        width: 156px;
+        margin-left: 25px;
+    }
+
+
+    header .info
+    {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media (max-width: 1355px)
+{
+    header .desc
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+
+    header .bg_contact
+    {
+        align-content: center;
+        align-items: center;
+
+        width: calc(100% - 532px);
+        padding: 6px 26px;
+    }
+
+
+
+    header .bg_links
+    {
+        width: 240px;
+        min-width: 0;
+        padding: 6px 13px;
+    }
+
+
+    header .callback_link2
+    {
+        width: 100%;
+        height: 40px;
+        padding: 2px 20px 0;
+
+        clip-path: none;
+    }
+
+
+    header .download_link
+    {
+        justify-content: center;
+
+        width: 100%;
+        height: 40px;
+        margin-top: 4px;
+        margin-left: 0;
+        padding: 2px 20px 0;
+
+        clip-path: none;
+    }
+}
+
+
+
+@media (max-width: 1199px)
+{
+    header .desc
+    {
+        width: 200px;
+    }
+
+
+    header .bg_contact
+    {
+        width: calc(100% - 420px);
+        padding: 6px 13px;
+    }
+
+
+    header .bg_links
+    {
+        width: 220px;
+    }
+
+
+    header .callback_link2,
+    header .download_link
+    {
+        font-size: 13px;
+    }
+}
+
+
+
+@media (max-width: 1023px)
+{
+    header .desc
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    header .bg_contact
+    {
+        display: none;
+    }
+
+
+    header .bg_links
+    {
+        width: 100%;
+        padding: 0;
+
+        background: none;
+    }
+
+
+    header .download_link
+    {
+        margin-top: 10px;
+    }
+}
